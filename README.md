@@ -11,6 +11,16 @@
 ## Language Used:
 1. Python
 
+## Project Structure
+```
+text
+.
+├── .env                  # environment variables
+├── requirements.txt      # Python dependencies
+├── tests/
+├── README.md
+```
+
 ## Prerequisites:
 1. Install Python
 2. Install Pytest
@@ -23,8 +33,8 @@ $ cd pytest-api-automation-framework
 ```
 
 ## How to Run the Test:
-1. Run: `pytest`
-2. Go to directory folder tests and Run: `pytest fileName.py`
+1. Run all test: `pytest`
+2. Run specific test: `pytest fileName.py`
 
 ## API Used for Testing:
 1. https://www.omdbapi.com/
